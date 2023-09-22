@@ -11,3 +11,11 @@
 .list {
     @apply flex gap-3 items-start
 }
+
+.input {
+    @apply border border-neutral-charcoalGrey p-4 rounded-lg outline-none
+}
+
+.error {
+    @apply border-primary-tomato text-primary-tomato bg-primary-tomato-light focus:border-primary-tomato
+}

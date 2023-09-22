@@ -8,7 +8,8 @@ module.exports = {
       },
       colors: {
         primary: {
-          "tomato": "hsl(4, 100%, 67%)"
+          "tomato": "hsl(4, 100%, 67%)",
+          "tomato-light": "hsl(4, 100%, 95%)"
         },
         neutral: {
           "darkSlate": "hsl(234, 29%, 20%)",
