@@ -581,6 +581,14 @@ video {
   margin-top: 13rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-48 {
+  margin-top: 12rem;
+}
+
 .flex {
   display: flex;
 }
