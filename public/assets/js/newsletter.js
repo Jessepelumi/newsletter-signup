@@ -3,6 +3,8 @@ const form = document.getElementById("form");
 const emailExpression = /^([a-z0-9\.-]+)@([a-z0-9-]+)\.([a-z]{2,8})([a-z]{2,8})?$/;
 const emailInput = document.getElementById("email");
 const errorMessage = document.getElementById("error-message");
+const modal = document.getElementById("modal");
+const emailSuccess = document.getElementById("email-success");
 
 function isEmailValid(email) {
     return emailExpression.test(email);
@@ -28,8 +30,11 @@ form.addEventListener("submit", (e) => {
     if(!isEmailValid(email)) {
         emailInput.classList.add("error");
         errorMessage.classList.remove("hidden");
+    } else {
+        modal.classList.remove("hidden");
     }
 
+    emailSuccess.textContent = email;
     
     e.preventDefault();
 });

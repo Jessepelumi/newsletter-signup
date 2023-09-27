@@ -541,6 +541,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -559,6 +563,10 @@ video {
 
 .top-1\/2 {
   top: 50%;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .flex {
