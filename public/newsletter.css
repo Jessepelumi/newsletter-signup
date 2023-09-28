@@ -734,6 +734,10 @@ video {
   padding-top: 12rem;
 }
 
+.pt-4 {
+  padding-top: 1rem;
+}
+
 .font-custom {
   font-family: Roboto, sans-serif;
 }
@@ -1018,6 +1022,10 @@ video {
   .lg\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+  }
+
+  .lg\:pt-0 {
+    padding-top: 0px;
   }
 
   .lg\:text-6xl {
